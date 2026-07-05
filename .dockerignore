@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/.next
+**/coverage
+**/.turbo
+.git
+**/.env
+**/.env.local
+*.log
+.idea
+.claude
+.DS_Store

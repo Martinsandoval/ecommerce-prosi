@@ -1,0 +1,1 @@
+export const PRODUCT_LISTING_PAGE_SIZE = 12;

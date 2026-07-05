@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+
+# build output
+dist/
+.next/
+out/
+build/
+
+# env
+.env
+.env.*.local
+.env.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# tests
+coverage/
+.nyc_output/
+
+# next.js
+next-env.d.ts
+
+# misc
+.temp
+.tmp
+*.tsbuildinfo

@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-prosi",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@11.5.0",
+  "scripts": {
+    "dev:api": "pnpm --filter @ecommerce/shared run build && pnpm --filter ecommerce-api start:dev",
+    "dev:web": "pnpm --filter @ecommerce/shared run build && pnpm --filter web dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test"
+  }
+}
