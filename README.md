@@ -1,4 +1,4 @@
-# Prosi — eCommerce Product Management
+# Prosigliere — eCommerce Product Management
 
 A small full-stack demo for managing a webstore's product catalog: a public storefront that lists active products with search and pagination, and an admin view for creating, searching, filtering, and activating/deactivating products. 
 
